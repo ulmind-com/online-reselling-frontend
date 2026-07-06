@@ -65,7 +65,7 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-4">
           <button
             onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            className="p-2 rounded-full hover:bg-secondary transition-colors"
+            className="relative p-2 rounded-full hover:bg-secondary transition-colors"
             aria-label="Toggle Theme"
           >
             <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
